@@ -20,8 +20,6 @@ Gem::Specification.new do |s|
     "source_code_uri"   => "https://github.com/rails/sass-rails/tree/v#{s.version}"
   }
 
-  s.add_dependency 'sassc-rails', github: 'civisanalytics/sassc-rails', branch: 'master'
-
   s.files         = Dir["MIT-LICENSE", "README.md", "lib/**/*"]
   s.require_paths = ["lib"]
 end
